@@ -4,23 +4,24 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-// const root = ReactDOM.createRoot(document.getElementById('root'));
-// root.render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>
-// );
-const X = () => 
-       <ul>
-        <li>PRimer obejto</li>
-        <li>segundo obejto</li>
-        <li>tercer objeto</li>
-       </ul>
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+// const X = () => 
+//        <ul>
+//         <li>PRimer obejto</li>
+//         <li>segundo obejto</li>
+//         <li>tercer objeto</li>
+//        </ul>
 
 
-ReactDOM.render(
-  <X />,  document.getElementById('root')
-)
+
+// ReactDOM.render(
+//   <X />,  document.getElementById('root')
+// )
 // esto se utiliza para renderizar la aplicacion y donde 
 
 // If you want to start measuring performance in your app, pass a function
